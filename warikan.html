@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>わりかん</title>
+</head>
+<body>
+  <h1>数字を入れて「計算」をクリック！</h1>
+
+  <form action="keisan.php" method="post">
+    <!-- form 要素の action 属性に指定されたプログラム（keisan.php）に、method 属性で指定された方法（上記の場合は POST メソッド）でデータ（値）が送信されます。 -->
+      合計<input type="text" name="data1" size="10">
+      人数<input type="text" name="data2" size="10">
+      <input type="submit" value="計算！">
+  </form>
+</body>
+</html>
